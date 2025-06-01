@@ -6,8 +6,8 @@
 
 #include <iostream>
 
-#include "unit_sphere.h"
-#include "Renderparams.h"
+#include "unit_sphere.hpp"
+#include "Renderparams.hpp"
 
 extern GLuint vao, vbo, ebo, prog;
 extern RenderParams params;

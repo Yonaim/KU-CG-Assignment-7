@@ -3,14 +3,14 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
-#include "unit_sphere.h"
 
 #include <string>
 #include <GL/glew.h>
 #include <vector>
 #include <iostream>
 
-#include "Renderparams.h"
+#include "unit_sphere.hpp"
+#include "Renderparams.hpp"
 
 GLuint vao = 0, vbo = 0, ebo = 0; // Vertex Array Object, Vertex Buffer Object, Element Buffer Object
 GLuint prog = 0; // GLSL program ID
